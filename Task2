@@ -1,0 +1,13 @@
+/*Task 2: Data Manipulation
+Write a function in Node.js that takes an array of integers as input and returns the sum of all the numbers.*/
+
+function Calculatesum(arr) {
+  if (arr.length === 0) {
+    return 0;
+  }
+  let sum = 0;
+  arr.forEach((n) => {
+      sum+=n;  
+  });
+  return sum;
+}
